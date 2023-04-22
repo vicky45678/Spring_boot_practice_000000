@@ -59,14 +59,6 @@ public class BookController {
         }
     }
 
-    @RequestMapping("/Eligible_token")
-    public String token(int Student){
 
-        if (Student==005){
-            return "he is eligible for access books";
-        }
-        else
-            return "invalide token";
-    }
 
 }
